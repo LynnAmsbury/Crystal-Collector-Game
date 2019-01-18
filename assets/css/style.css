@@ -1,0 +1,71 @@
+#wrapper {
+    background-image: url("../images/crystalBackgroungImage.jpeg");
+    background-size: 80%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    text-align: center;
+}
+
+#header {
+    background-image: url("../images/crystalBannerImage.jpg");
+    color: white;
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    margin-bottom: 60px;
+}
+
+#instruction-div {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 60px;
+    border: 2px solid black;
+}
+
+#game-div {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 60px;
+}
+
+#crystals-div {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-justify: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 60px;
+    border: 2px solid black;
+}
+
+#wins-losses-div {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 60px;
+    border: 2px solid black;
+}
+
+.button {
+    height: 100px;
+    width: 80px;
+    /*border: 2px solid black;*/
+}
