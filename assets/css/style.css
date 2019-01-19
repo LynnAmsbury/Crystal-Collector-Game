@@ -14,7 +14,7 @@
     text-align: center;
     padding: 30px;
     border-bottom: 2px solid black;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #instruction-div {
@@ -24,7 +24,7 @@
     width: 50%;
     position: relative;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     border: 2px solid black;
 }
 
@@ -36,7 +36,7 @@
     width: 100%;
     padding: 10px;
     border: 2px solid black;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #crystals-div {
@@ -46,10 +46,10 @@
     text-justify: center;
     display: flex;
     flex-wrap: wrap;
-    height: 50%;
+    height: fit-content;
     width: 100%;
     padding: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     border: 2px solid black;
 }
 
@@ -60,12 +60,23 @@
     text-align: center;
     width: 100%;
     padding: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     border: 2px solid black;
 }
 
 .button {
     height: 100px;
     width: 80px;
-    /*border: 2px solid black;*/
+}
+
+.gameResult {
+    color: white;
+    font-size: 50px;
+    min-height: 50px;
+    visibility: hidden;
+}
+
+/* toggleClass to reveal hidden elements*/
+.showContent {
+    visibility: visible;
 }
